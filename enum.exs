@@ -18,6 +18,11 @@ defmodule TestEnum do
 
     IO.puts valor_total
   end
+
+  def sort do
+    val = Enum.sort([2, 3, 1], :asc)
+    IO.puts val
+  end
 end
 
 TestEnum.sort
