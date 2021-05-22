@@ -11,6 +11,4 @@ defmodule Loops do
   for x <- numbers_to_use_in_loop do
     IO.puts x
   end
-
-  for x <- Enum.
 end
